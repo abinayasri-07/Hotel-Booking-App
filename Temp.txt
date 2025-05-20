@@ -1,0 +1,354 @@
+Admin
+
+{
+  "name": "Suga",
+  "email": "suga@admin.com"
+  "password": "suga@123"
+}
+
+{
+  "name": "John",
+  "email": "john@admin.com",
+  "password": "john@123"
+}
+
+----------------------
+
+Customer
+
+{
+  "name": "Jancy",
+    "gender": "Female",
+    "email": "jancy@gmail.com",
+    "phone": "9878765434",
+    "address": "Coimbatore",
+  "password": "jancy@123"
+}
+
+{
+  "name": "Arun",
+    "gender": "Male",
+    "email": "arun@gmail.com",
+    "phone": "9898989898",
+    "address": "Hyderabad",
+  "password": "arun@123"
+}
+
+{
+  "name": "Rahul",
+    "gender": "Male",
+    "email": "rahul@gmail.com",
+    "phone": "9876543210",
+    "address": "Chennai",
+  "password": "rahul@123"
+}
+
+{
+  "name": "Priya",
+    "gender": "Female",
+    "email": "priya@gmail.com",
+    "phone": "9876123450",
+    "address": "Bangalore",
+  "password": "priya@123"
+}
+
+{
+  "name": "Sneha",
+    "gender": "Female",
+    "email": "sneha@gmail.com",
+    "phone": "9865432109",
+    "address": "Pune",
+  "password": "sneha@123"
+}
+
+--------------------------------
+
+Hotel Manager
+
+{
+  "name": "Karishma",
+  "email": "karishma@manager.com",
+  "password": "karishma@123",
+  "phone": "9876767654"
+}
+
+{
+  "name": "Divya",
+  "email": "divya@manager.com",
+  "password": "divya@123",
+  "phone": "9876123987"
+}
+
+{
+  "name": "Anil",
+  "email": "anil@manager.com",
+  "password": "anil@123",
+  "phone": "9876987456"
+}
+
+{
+  "name": "Ramesh",
+  "email": "ramesh@manager.com",
+  "password": "ramesh@123",
+  "phone": "9876501234"
+}
+
+{
+  "name": "Nive",
+  "email": "nive@manager.com",
+  "password": "nive@123",
+  "phone": "9876012345"
+}
+
+------------------------------
+
+Hotel
+
+{
+    "hotelName": "The Taj",
+    "location": "Delhi",
+    "contactNumber": "8787678765",
+    "email": "contact@thetaj.com",
+    "description": "Luxury hotel in the heart of Delhi offering top-tier amenities.",
+    "starRating": 4,
+    "amenities": "Wifi, Swimming Pool, Parking",
+    "pricePerNight": 3000,
+    "url": "https://travelji.com/wp-content/uploads/Hotel-Tips.jpg",
+    "hotelManagerId": 1
+}
+
+{
+    "hotelName": "Ocean View Resort",
+    "location": "Goa",
+    "contactNumber": "9123456789",
+    "email": "info@oceanview.com",
+    "description": "Beachfront resort with stunning sea views and modern facilities.",
+    "starRating": 5,
+    "amenities": "Wifi, Beach Access, Spa, Pool",
+    "pricePerNight": 4500,
+    "url": "https://media.expedia.com/hotels/10000000/9790000/9784600/9784580/2a61cd38_z.jpg",
+    "hotelManagerId": 2
+}
+
+{
+   "hotelName": "Beach Heights",
+    "location": "Goa",
+    "contactNumber": "9988776655",
+    "email": "contact@beachheights.com",
+    "description": "Cozy mountain hotel with breathtaking views of the Beach.",
+    "starRating": 3,
+    "amenities": "Wifi, Heater, Bonfire, Parking",
+    "pricePerNight": 2500,
+    "url": "https://muffingroup.com/blog/wp-content/uploads/2020/10/hotel.jpg",
+    "hotelManagerId": 0
+}
+
+---------------------------------
+
+Review
+
+{
+  "rating": 5,
+  "comment": "Outstanding service and very clean rooms!",
+  "customerId": 1,
+  "hotelId": 1
+}
+
+{
+  "rating": 4,
+  "comment": "Great location and friendly staff.",
+  "customerId": 2,
+  "hotelId": 1
+}
+
+{
+  "rating": 4,
+  "comment": "Comfortable stay and quick check-in.",
+  "customerId": 2,
+  "hotelId": 2
+}
+
+---------------------------------------
+
+Rooms
+
+{
+    "roomId": 1,
+    "type": "Standard",
+    "pricePerNight": 900,
+    "isAvailable": true,
+    "amenities": "TV, AC, Sofa",
+    "capacity": 2,
+    "description": "Affordable comfort with modern essentials.",
+    "url": "https://tse4.mm.bing.net/th?id=OIP.eUmRjpZOz3-yqS_-wEwRPQHaE8&pid=Api&P=0&h=180",
+    "hotelId": 1
+}
+
+{
+    "roomId": 2,
+    "type": "Deluxe",
+    "pricePerNight": 1500,
+    "isAvailable": true,
+    "amenities": "TV, AC, City View",
+    "capacity": 2,
+    "description": "Modern deluxe room ideal for couples.",
+    "url": "https://wallpaperaccess.com/full/5655441.jpg",
+    "hotelId": 1
+  }
+
+{
+    "roomId": 3,
+    "type": "Suite",
+    "pricePerNight": 2500,
+    "isAvailable": true,
+    "amenities": "Jacuzzi, TV, Lounge",
+    "capacity": 4,
+    "description": "Spacious suite with lounge and luxury bath.",
+    "url": "https://www.redrockresort.com/wp-content/uploads/2020/12/RR-Standard-2-Queen.jpg",
+    "hotelId": 1
+  }
+
+{
+    "roomId": 4,
+    "type": "Executive",
+    "pricePerNight": 1800,
+    "isAvailable": true,
+    "amenities": "Work Desk, AC, WiFi",
+    "capacity": 2,
+    "description": "Perfect for business travelers.",
+    "url": "https://wallpaperaccess.com/full/2690978.jpg",
+    "hotelId": 1
+  }
+
+{
+    "roomId": 5,
+    "type": "Family Room",
+    "pricePerNight": 2200,
+    "isAvailable": true,
+    "amenities": "TV, Sofa Bed, Kitchenette",
+    "capacity": 4,
+    "description": "Great for family stays with added comfort.",
+    "url": "https://www.gevorahotels.com/cache/ac/57/ac57271db5d1bae57a1010f930e4763a.jpg",
+    "hotelId": 1
+  }
+
+{
+    "roomId": 6,
+    "type": "Standard",
+    "pricePerNight": 1000,
+    "isAvailable": true,
+    "amenities": "TV, AC, Desk",
+    "capacity": 3,
+    "description": "Spacious and affordable standard room.",
+    "url": "https://interiordesignexplained.com/images/full-size/05/double-hotel-room-design-1.jpeg",
+    "hotelId": 2
+  }
+
+{
+    "roomId": 7,
+    "type": "Deluxe",
+    "pricePerNight": 1600,
+    "isAvailable": true,
+    "amenities": "TV, Minibar, Pool View",
+    "capacity": 3,
+    "description": "Modern room with deluxe amenities and pool view.",
+    "url": "https://i.pinimg.com/originals/f5/64/b3/f564b3b353fb96ad68231cf46f14602e.png",
+    "hotelId": 2
+  }
+
+{
+    "roomId": 8,
+    "type": "Deluxe",
+    "pricePerNight": 1600,
+    "isAvailable": true,
+    "amenities": "TV, Minibar, Pool View",
+    "capacity": 3,
+    "description": "Modern room with deluxe amenities and pool view.",
+    "url": "https://i.pinimg.com/originals/f5/64/b3/f564b3b353fb96ad68231cf46f14602e.png",
+    "hotelId": 2
+  }
+
+{
+    "roomId": 9,
+    "type": "Executive",
+    "pricePerNight": 2000,
+    "isAvailable": true,
+    "amenities": "WiFi, AC, Sofa",
+    "capacity": 2,
+    "description": "Designed for executives and business trips.",
+    "url": "https://hotelvilnia.lt/wp-content/uploads/2018/06/DSC07003-HDR-Edit-Edit-1.jpg",
+    "hotelId": 2
+  }
+
+{
+    "roomId": 10,
+    "type": "Twin Room",
+    "pricePerNight": 1400,
+    "isAvailable": true,
+    "amenities": "Twin Beds, TV, WiFi",
+    "capacity": 4,
+    "description": "Great for friends or colleagues.",
+    "url": "https://www.bellevueclub.com/wp-content/uploads/2019/06/DeluxeDouble_Banner.jpg",
+    "hotelId": 2
+  }
+
+{
+    "roomId": 11,
+    "type": "Luxury Suite",
+    "pricePerNight": 3000,
+    "isAvailable": true,
+    "amenities": "Jacuzzi, Private Balcony, Kitchenette",
+    "capacity": 4,
+    "description": "Luxury redefined for families and couples.",
+    "url": "https://www.cvent.com/sites/default/files/image/2021-10/hotel%20room%20with%20beachfront%20view.jpg",
+    "hotelId": 3
+  }
+
+{
+    "roomId": 12,
+    "type": "Family Deluxe",
+    "pricePerNight": 2600,
+    "isAvailable": true,
+    "amenities": "TV, Sofa Bed, Bathtub",
+    "capacity": 4,
+    "description": "Ideal for families with children.",
+    "url": "https://www.pioneer-cbh.com/app/uploads/sites/33/2021/08/25-PIONEER-BEACH-HOTEL-SUPERIOR-DELUXE-ROOM-SV.jpg",
+    "hotelId": 3
+  }
+
+{
+    "roomId": 13,
+    "type": "Executive",
+    "pricePerNight": 1900,
+    "isAvailable": true,
+    "amenities": "Work Desk, High-Speed WiFi, AC",
+    "capacity": 2,
+    "description": "Stylish executive setup with workspace.",
+    "url": "https://fthmb.tqn.com/xZ3rHdeVZmOcm_9IfnG4tFcW6d4=/970x546/filters:fill(auto,1)/7-Star-Hotels-Rooms-1-579b649f3df78c3276267822.jpg",
+    "hotelId": 3
+}
+
+{
+    "roomId": 14,
+    "type": "Luxury King",
+    "pricePerNight": 2800,
+    "isAvailable": true,
+    "amenities": "King Bed, Smart TV, View Balcony",
+    "capacity": 4,
+    "description": "Premium experience with great views.",
+    "url": "https://i.pinimg.com/originals/f5/64/b3/f564b3b353fb96ad68231cf46f14602e.png",
+    "hotelId": 3
+}
+
+{
+    "roomId": 15,
+    "type": "Budget Room",
+    "pricePerNight": 750,
+    "isAvailable": true,
+    "amenities": "Fan, Desk, TV",
+    "capacity": 2,
+    "description": "Economical room for short stays.",
+    "url": "https://www.crownhoteleindhoven.com/media/images/EH---CROWN-HOTEL-EINDHOVEN---COMFORT-SINGLE-K.width-2560.jpg",
+    "hotelId": 3
+  }
+-------------------------------
